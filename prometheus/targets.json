@@ -1,0 +1,22 @@
+[
+  {
+    "labels": {
+      "job": "jmx"
+    },
+    "targets": [
+      "b-1.msk-test-cluster-1.pxabe2.c10.kafka.us-west-2.amazonaws.com:11001",
+      "b-2.msk-test-cluster-1.pxabe2.c10.kafka.us-west-2.amazonaws.com:11001",
+      "b-3.msk-test-cluster-1.pxabe2.c10.kafka.us-west-2.amazonaws.com:11001"
+    ]
+  },
+  {
+    "labels": {
+      "job": "node"
+    },
+    "targets": [
+      "b-1.msk-test-cluster-1.pxabe2.c10.kafka.us-west-2.amazonaws.com:11002",
+      "b-2.msk-test-cluster-1.pxabe2.c10.kafka.us-west-2.amazonaws.com:11002",
+      "b-3.msk-test-cluster-1.pxabe2.c10.kafka.us-west-2.amazonaws.com:11002"
+    ]
+  }
+]
