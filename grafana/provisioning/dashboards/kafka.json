@@ -15,7 +15,7 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": 10,
+  "id": 4,
   "links": [],
   "panels": [
     {
@@ -34,6 +34,7 @@
     },
     {
       "datasource": null,
+      "description": "",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -105,13 +106,13 @@
       "targets": [
         {
           "exemplar": true,
-          "expr": "kafka_server_BrokerTopicMetrics_OneMinuteRate{name=\"BytesInPerSec\",topic!=''}",
+          "expr": "kafka_server_BrokerTopicMetrics_OneMinuteRate{name=\"BytesInPerSec\",topic=~\"fluent.*\"}",
           "interval": "",
           "legendFormat": "",
           "refId": "A"
         }
       ],
-      "title": "KB in per min by topic",
+      "title": "Bytes in per sec by topic",
       "type": "timeseries"
     },
     {
@@ -210,5 +211,5 @@
   "timezone": "",
   "title": "Kafka",
   "uid": "oPBhIAMnz",
-  "version": 1
+  "version": 5
 }
