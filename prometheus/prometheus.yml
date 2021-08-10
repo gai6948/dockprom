@@ -45,6 +45,12 @@ scrape_configs:
       - targets:
         - '10.0.2.231:9000'
 
+  - job_name: 'kafkaconsumer'
+    scrape_interval: 10s
+    static_configs:
+      - targets:
+        - '10.0.0.26:9500'
+
 alerting:
   alertmanagers:
   - scheme: http
