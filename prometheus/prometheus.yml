@@ -43,7 +43,7 @@ scrape_configs:
     scrape_interval: 10s
     static_configs:
       - targets:
-        - '10.0.2.231:9000'
+        - '10.0.1.200:9000'
 
   - job_name: 'kafkaconsumer'
     scrape_interval: 10s
