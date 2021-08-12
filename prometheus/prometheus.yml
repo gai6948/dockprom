@@ -39,17 +39,17 @@ scrape_configs:
     - files:
       - 'targets.json'
       
-  - job_name: 'fluentd'
-    scrape_interval: 10s
-    static_configs:
-      - targets:
-        - '10.0.3.65:9000'
+  # - job_name: 'fluentd'
+  #   scrape_interval: 10s
+  #   static_configs:
+  #     - targets:
+  #       - '10.0.3.65:9000'
 
   - job_name: 'fluentbit'
     scrape_interval: 10s
     static_configs:
       - targets:
-        - '10.0.1.24:2020/api/v1/metrics/prometheus'
+        - '10.0.2.52:9000'
 
   - job_name: 'kafkaconsumer'
     scrape_interval: 10s
