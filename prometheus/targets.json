@@ -4,9 +4,9 @@
       "job": "jmx"
     },
     "targets": [
-      "b-1.msk-test-cluster-1.vnzzt8.c10.kafka.us-west-2.amazonaws.com:11001",
-      "b-2.msk-test-cluster-1.vnzzt8.c10.kafka.us-west-2.amazonaws.com:11001",
-      "b-3.msk-test-cluster-1.vnzzt8.c10.kafka.us-west-2.amazonaws.com:11001"
+      "b-1.msk-test-cluster-1.fhov1n.c10.kafka.us-west-2.amazonaws.com:11001",
+      "b-2.msk-test-cluster-1.fhov1n.c10.kafka.us-west-2.amazonaws.com:11001",
+      "b-3.msk-test-cluster-1.fhov1n.c10.kafka.us-west-2.amazonaws.com:11001"
     ]
   },
   {
@@ -14,9 +14,9 @@
       "job": "node"
     },
     "targets": [
-      "b-1.msk-test-cluster-1.vnzzt8.c10.kafka.us-west-2.amazonaws.com:11002",
-      "b-2.msk-test-cluster-1.vnzzt8.c10.kafka.us-west-2.amazonaws.com:11002",
-      "b-3.msk-test-cluster-1.vnzzt8.c10.kafka.us-west-2.amazonaws.com:11002"
+      "b-1.msk-test-cluster-1.fhov1n.c10.kafka.us-west-2.amazonaws.com:11002",
+      "b-2.msk-test-cluster-1.fhov1n.c10.kafka.us-west-2.amazonaws.com:11002",
+      "b-3.msk-test-cluster-1.fhov1n.c10.kafka.us-west-2.amazonaws.com:11002"
     ]
   }
 ]
